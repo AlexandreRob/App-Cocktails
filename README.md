@@ -9,7 +9,7 @@
 
 ### 1. Requirements
 
-- [Live Server] (https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 ## Développement local
 
