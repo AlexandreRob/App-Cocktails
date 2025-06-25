@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Catalog Cocktails</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Catalogue de Cocktails</h1>
+
+      <div class="filters">
+        <div class="searchContainer">
+          <label>Rechercher par nom</label>
+          <input id="searchInput" type="text" placeholder="Ex: Apple Martini" />
+        </div>
+
+        <div class="display-options">
+          <label for="countCocktails"
+            >Limite d'affichage
+            <span id="valueCocktails">5</span> cocktails</label
+          >
+
+          <input id="countCocktails" type="range" min="1" max="25" value="5" />
+        </div>
+
+        <div>
+          <label for="sortName">Trier par :</label>
+          <select name="" id="sortName">
+            <option value="sortNameAsc">Nom (A-Z)</option>
+            <option value="sortNameDesc">Nom (Z-A)</option>
+          </select>
+        </div>
+    </header>
+
+    <main id="cardCocktails"></main>
+    <script src="script.js"></script>
+  </body>
+</html>
